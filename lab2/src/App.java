@@ -71,21 +71,22 @@ public class App {
         System.out.println("De que contienente eres ?");
         String continente = scanner.nextLine();
 
-        continente = continente.substring(0, 1).toUpperCase() + continente.substring(1).toLowerCase();
-
+        //continente = continente.substring(0, 1).toUpperCase() + continente.substring(1).toLowerCase();
+        continente = continente.toLowerCase();
+        
         switch (continente) {
-            case "Africa":
+            case "africa":
                 System.out.println("Gran Continente");
                 break;
-            case "Asia":
+            case "asia":
                 System.out.println("Me gusta la comida Asiatica");
                 break;
-            case "Europa":
+            case "europa":
                 System.out.println("El viejo continente");
                 break;
-            case "America":
+            case "america":
                 System.out.println("El nuevo continente");
-            case "Oceania":
+            case "oceania":
                 System.out.println("Kanguroos ?");
                 break;
             
@@ -98,9 +99,9 @@ public class App {
 
     public static void main(String[] args) throws Exception {
         
-        ejercicio1();
-        ejercicio2();
-        ejercicio3();
+        //ejercicio1();
+        //ejercicio2();
+        //ejercicio3();
         extra();   
     }
 }
