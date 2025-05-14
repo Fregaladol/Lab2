@@ -68,7 +68,7 @@ public class App {
         
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("De que contienente eres ?");
+        System.out.println("De que continente eres ?");
         String continente = scanner.nextLine();
 
         //continente = continente.substring(0, 1).toUpperCase() + continente.substring(1).toLowerCase();
@@ -82,10 +82,11 @@ public class App {
                 System.out.println("Me gusta la comida Asiatica");
                 break;
             case "europa":
-                System.out.println("El viejo continente");
+                System.out.println("Es más pequeño de lo que parece");
                 break;
             case "america":
-                System.out.println("El nuevo continente");
+                System.out.println("De norte a sur");
+                break;
             case "oceania":
                 System.out.println("Kanguroos ?");
                 break;
